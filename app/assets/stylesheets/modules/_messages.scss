@@ -39,21 +39,12 @@
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 20px;
-  &__box1 {
+  &__box {
     padding-bottom: 40px;
-    color: $fontcolor;
     font-weight: bold;
-    &__name {
-      font-size: 15px;
+    a {
+      color: $fontcolor;
     }
-    &__text {
-      font-size: 11px;
-    }
-  }
-  &__box2 {
-    font-weight: bold;
-    padding-bottom: 40px;
-    color: $fontcolor;
     &__name {
       font-size: 15px;
     }
